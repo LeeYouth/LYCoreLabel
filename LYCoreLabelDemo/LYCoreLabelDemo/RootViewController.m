@@ -1,21 +1,14 @@
 //
-//  ViewController.m
+//  RootViewController.m
 //  LYCoreLabelDemo
 //
 //  Created by LYoung on 15/9/24.
 //  Copyright (c) 2015年 LYoung. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "NSMutableAttributedString+Extention.h"
-#import "NSString+FindFace.h"
-#define TextFont [UIFont systemFontOfSize:16]
+#import "RootViewController.h"
 
-@interface ViewController ()
-
-@end
-
-@implementation ViewController
+@implementation RootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,7 +17,7 @@
     CGFloat coreLabelX = 10;
     CGFloat maxW = self.view.frame.size.width - 2*coreLabelX;
     CGSize maxSize = CGSizeMake(maxW, MAXFLOAT);
-
+    
     
     
     UILabel * coreLabel= [[UILabel alloc] init];
