@@ -20,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
     NSString *coreTextString = @"CoreText[/爱心]框架是基于 iOS 3.2+ 和 OSX 10.5+ [/握手]的一种能够对文本格式和文本布局进行精细控制的文本引擎。它良好的结合了 UIKit 和 Core Graphics/Quartz：UIKit 的 UILabel允许你通过在 IB 中简单的拖曳添加文本，[/大兵]但你不能改变文本的颜色和其中的单词。[/强]";
     
     
