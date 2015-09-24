@@ -59,6 +59,7 @@
 		E6461B0E1BB3EF8A0087FB7E /* Small019@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6461AE61BB3EF8A0087FB7E /* Small019@2x.png */; };
 		E6461B0F1BB3EF8A0087FB7E /* Small020.png in Resources */ = {isa = PBXBuildFile; fileRef = E6461AE71BB3EF8A0087FB7E /* Small020.png */; };
 		E6461B101BB3EF8A0087FB7E /* Small020@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6461AE81BB3EF8A0087FB7E /* Small020@2x.png */; };
+		E6461B121BB3F4290087FB7E /* lyoung_icons.png in Resources */ = {isa = PBXBuildFile; fileRef = E6461B111BB3F4290087FB7E /* lyoung_icons.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +136,7 @@
 		E6461AE61BB3EF8A0087FB7E /* Small019@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Small019@2x.png"; sourceTree = "<group>"; };
 		E6461AE71BB3EF8A0087FB7E /* Small020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Small020.png; sourceTree = "<group>"; };
 		E6461AE81BB3EF8A0087FB7E /* Small020@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Small020@2x.png"; sourceTree = "<group>"; };
+		E6461B111BB3F4290087FB7E /* lyoung_icons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lyoung_icons.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +239,7 @@
 		E6461A621BB3EA4B0087FB7E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E6461B111BB3F4290087FB7E /* lyoung_icons.png */,
 				E6461AC01BB3EF8A0087FB7E /* SmallFaceImage */,
 			);
 			path = Resources;
@@ -387,6 +390,7 @@
 				E6461B0F1BB3EF8A0087FB7E /* Small020.png in Resources */,
 				E6461AEA1BB3EF8A0087FB7E /* Small001@2x.png in Resources */,
 				E6461AFC1BB3EF8A0087FB7E /* Small010@2x.png in Resources */,
+				E6461B121BB3F4290087FB7E /* lyoung_icons.png in Resources */,
 				E6461B0B1BB3EF8A0087FB7E /* Small018.png in Resources */,
 				E6461AEB1BB3EF8A0087FB7E /* Small002.png in Resources */,
 				E6461A371BB3E4360087FB7E /* LaunchScreen.xib in Resources */,
