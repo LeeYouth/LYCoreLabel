@@ -12,6 +12,8 @@
 	<dict>
 		<key>800073519967A0AC23A2B293342077EB9F5A0E09</key>
 		<string>https://github.com/LeeYouth/LYCoreLabel.git</string>
+		<key>cd21ccc2-4336-0410-92e0-84b216f8d78d++733</key>
+		<string>http://121.207.231.229/cnfol/cnfol/iOS/iOS_Finance/trunk/1Product/20150803/Finance/Finance/Classes/Other/Resources/SmallFaceImage</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>LYCoreLabelDemo/LYCoreLabelDemo.xcodeproj</string>
@@ -19,6 +21,13 @@
 	<dict>
 		<key>800073519967A0AC23A2B293342077EB9F5A0E09</key>
 		<string>../../..</string>
+		<key>cd21ccc2-4336-0410-92e0-84b216f8d78d++733</key>
+		<string>../../..LYCoreLabelDemo/LYCoreLabelDemo/Resources/SmallFaceImage/</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>cd21ccc2-4336-0410-92e0-84b216f8d78d++733</key>
+		<string>http://121.207.231.229/cnfol</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/LeeYouth/LYCoreLabel.git</string>
@@ -35,6 +44,14 @@
 			<string>800073519967A0AC23A2B293342077EB9F5A0E09</string>
 			<key>IDESourceControlWCCName</key>
 			<string>LYCoreLabel</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>cd21ccc2-4336-0410-92e0-84b216f8d78d++733</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SmallFaceImage</string>
 		</dict>
 	</array>
 </dict>
