@@ -22,4 +22,7 @@
 #define FaceDict [[NSDictionary alloc] initWithObjects:ImageNumArray forKeys:FaceArray]
 
 
+#import "NSMutableAttributedString+Extention.h"
+#import "NSString+FindFace.h"
+
 #endif

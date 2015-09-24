@@ -10,6 +10,8 @@
 #import <CoreText/CoreText.h>
 
 @implementation NSMutableAttributedString (Extention)
+
+
 + (NSMutableAttributedString *)stringWithText:(NSString *)text
 {
     NSMutableArray *msgArray = [NSMutableArray array];
@@ -20,7 +22,7 @@
 
 + (void)getFaceRange:(NSString *)msg msgArray:(NSMutableArray *)msgArray{
     if (msg.length == 0) return;
-    //便利msg里面的每一标识
+    //遍历msg里面的每一标识
     //1.查找表情区域
     NSRange beginRange = [msg rangeOfString:BEGIN_FLAG];
     NSRange endRange = [msg rangeOfString:END_FLAG];
@@ -42,7 +44,6 @@
         NSRange faceRange = NSMakeRange(loc, len);
         NSString *strFace = [msg substringWithRange:faceRange];
         [msgArray addObject:strFace];
-        
         
         //4.截取表情之后字符串
         NSString *strAfterFace = [msg substringFromIndex:endRange.location + 1];
