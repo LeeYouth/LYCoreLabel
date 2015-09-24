@@ -17,3 +17,7 @@
 ## 计算富文本高度
     CGSize textSize = [coreTextString sizeWithFont:TextFont maxSize:maxSize];
     coreLabel.frame = (CGRect){{coreLabelX, 0}, textSize};
+    
+##图片介绍
+![image](https://github.com/LeeYouth/LYCoreLabel/blob/master/LYCoreLabelDemo/LYCoreLabelDemo/Resources/lyoung_icons.png)
+
